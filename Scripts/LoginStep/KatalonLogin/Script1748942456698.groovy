@@ -17,17 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'myPack.GTIN.getPallet_ID37'()
+CustomKeywords.'myPack.WebUIhack.waitForelementVisibleThenClick'(findTestObject('Object Repository/LoginObjects/LoginButton'), 20)
+CustomKeywords.'myPack.WebUIhack.waitForelementVisibleThenClick'(findTestObject('Object Repository/LoginObjects/loginwithemail'), 20)
 
-WebUI.openBrowser('https://katalon.com/')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/KatalonHome/KatalonHeader'), 10, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('LoginStep/KatalonLogin'), [('Username'):username,('Passwd'):passwd], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.takeScreenshot()
+WebUI.waitForElementVisible(findTestObject('Object Repository/LoginObjects/loginPageHeader'), 20, FailureHandling.STOP_ON_FAILURE)
 
 
+WebUI.sendKeys(findTestObject('Object Repository/LoginObjects/username'), Username)
+WebUI.setEncryptedText(findTestObject('Object Repository/LoginObjects/password'), Passwd)
 
-WebUI.closeBrowser()
+CustomKeywords.'myPack.WebUIhack.waitForelementVisibleThenClick'(findTestObject('Object Repository/LoginObjects/LoginClick'), 20)
+
+
 

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSUite1,Chrome 137.0.7151.68,,,03-06-2025 15:54:50,03-06-2025 15:55:19,29.340s,PASSED
+,,,,,,,
+Test Cases/Test1,Chrome 137.0.7151.68,,,03-06-2025 15:54:50,03-06-2025 15:55:07,16.137s,PASSED
+"DATA BINDING - {""passwd"":""OV3w8KWdimMqTFbcuLWRqg\u003d\u003d"",""username"":""ssiddh9@gmail.com""}",,,,,,,
+myPack.GTIN.getPallet_ID37(),Chrome 137.0.7151.68,,,03-06-2025 15:54:51,03-06-2025 15:54:52,0.798s,PASSED
+"openBrowser(""https://katalon.com/"")",Chrome 137.0.7151.68,,,03-06-2025 15:54:52,03-06-2025 15:54:59,6.870s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/KatalonHome/KatalonHeader""), 10, STOP_ON_FAILURE)",Chrome 137.0.7151.68,,,03-06-2025 15:54:59,03-06-2025 15:54:59,0.194s,PASSED
+"callTestCase(findTestCase(""LoginStep/KatalonLogin""), [""Username"":username, ""Passwd"":passwd], STOP_ON_FAILURE)",Chrome 137.0.7151.68,,,03-06-2025 15:54:59,03-06-2025 15:55:05,6.677s,PASSED
+takeScreenshot(),Chrome 137.0.7151.68,,,03-06-2025 15:55:05,03-06-2025 15:55:06,0.385s,PASSED
+closeBrowser(),Chrome 137.0.7151.68,,,03-06-2025 15:55:06,03-06-2025 15:55:07,0.720s,PASSED
+,,,,,,,
+Test Cases/Test1,Chrome 137.0.7151.68,,,03-06-2025 15:55:07,03-06-2025 15:55:19,12.462s,PASSED
+"DATA BINDING - {""passwd"":""OV3w8KWdimMqTFbcuLWRqg\u003d\u003d"",""username"":""siddarth.punamiya@ica.se""}",,,,,,,
+myPack.GTIN.getPallet_ID37(),Chrome 137.0.7151.68,,,03-06-2025 15:55:07,03-06-2025 15:55:07,0.011s,PASSED
+"openBrowser(""https://katalon.com/"")",Chrome 137.0.7151.68,,,03-06-2025 15:55:07,03-06-2025 15:55:12,5.687s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/KatalonHome/KatalonHeader""), 10, STOP_ON_FAILURE)",Chrome 137.0.7151.68,,,03-06-2025 15:55:12,03-06-2025 15:55:12,0.186s,PASSED
+"callTestCase(findTestCase(""LoginStep/KatalonLogin""), [""Username"":username, ""Passwd"":passwd], STOP_ON_FAILURE)",Chrome 137.0.7151.68,,,03-06-2025 15:55:12,03-06-2025 15:55:18,5.446s,PASSED
+takeScreenshot(),Chrome 137.0.7151.68,,,03-06-2025 15:55:18,03-06-2025 15:55:18,0.424s,PASSED
+closeBrowser(),Chrome 137.0.7151.68,,,03-06-2025 15:55:18,03-06-2025 15:55:19,0.688s,PASSED

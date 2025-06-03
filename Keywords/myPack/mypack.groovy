@@ -157,7 +157,7 @@ public class GTIN {
 		for(int i = 0; i<bases;i++){
 			Base b = new Base();
 			addGlobalVariable("BaseGTIN" + i, b.getGTIN(),true);
-//			addGlobalVariable("PalletGTIN" + i, p.getGTIN());
+			//			addGlobalVariable("PalletGTIN" + i, p.getGTIN());
 			p.childrenBases.add(b);
 			b.parentPallet.add(p);
 		}
@@ -220,7 +220,6 @@ public class GTIN {
 
 		//parentCase.parent.add(pallet);
 		return b1;
-
 	}
 
 	@Keyword
@@ -277,7 +276,7 @@ public class GTIN {
 
 		return pallet;
 	}
-	
+
 
 	@Keyword
 	public Pallet getPallet_ID41_1(){
@@ -553,7 +552,7 @@ public class GTIN {
 
 		return pallet;
 	}
-	
+
 	@Keyword
 	public Pallet getPallet_ID51_1(){
 		Pallet pallet = new Pallet();
@@ -614,7 +613,6 @@ public class GTIN {
 	public Map getGlobalVariableItems(){
 		return (Map) GlobalVariable.CIN_1;
 	}
-
 }
 
 
@@ -669,7 +667,5 @@ public class Base extends GTINReq{
 		this.GTIN = super.GTIN;
 		//		println("BaseGTIN = " + this.GTIN)
 	}
-
-
 }
 

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSUite1" time="29.298" tests="2" failures="0" errors="0">
+   <testsuite name="TestSUite1" tests="2" failures="0" errors="0" time="29.298" skipped="0" timestamp="03-06-2025T15:54:50" hostname="Yuvaan - 192.168.1.179" id="Test Suites/TestSUite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Yuvaan\\git\\KatalonLatestDemo\\Reports\\20250603_155446\\TestSUite1\\20250603_155446"/>
+         <property name="logFiles" value="C:\\Users\\Yuvaan\\git\\KatalonLatestDemo\\Reports\\20250603_155446\\TestSUite1\\20250603_155446\\console0.log, C:\\Users\\Yuvaan\\git\\KatalonLatestDemo\\Reports\\20250603_155446\\TestSUite1\\20250603_155446\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Yuvaan\\git\\KatalonLatestDemo\\Reports\\20250603_155446\\TestSUite1\\20250603_155446\\1748946305987.png, C:\\Users\\Yuvaan\\git\\KatalonLatestDemo\\Reports\\20250603_155446\\TestSUite1\\20250603_155446\\1748946318410.png"/>
+         <property name="hostName" value="Yuvaan - 192.168.1.179"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.68"/>
+         <property name="userFullName" value="Siddharth Punamiya"/>
+         <property name="hostAddress" value="192.168.1.179"/>
+         <property name="sessionId" value="e0f9fae68b9ff1625d7d4aeec7a18853"/>
+         <property name="projectName" value="KatalonLatestDemo"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test1" time="16.137" classname="Test Cases/Test1" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"passwd":"OV3w8KWdimMqTFbcuLWRqg\u003d\u003d","username":"ssiddh9@gmail.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-06-2025T15:54:50 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+03-06-2025T15:54:51 - [TEST_STEP][PASSED] - myPack.GTIN.getPallet_ID37(): myPack.GTIN.getPallet_ID37 is PASSED
+
+03-06-2025T15:54:52 - [MESSAGE][PASSED] - myPack.GTIN.getPallet_ID37 is PASSED
+
+03-06-2025T15:54:52 - [TEST_STEP][PASSED] - openBrowser("https://katalon.com/"): Browser is opened with url: 'https://katalon.com/'
+
+03-06-2025T15:54:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2025T15:54:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2025T15:54:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon.com/'
+
+03-06-2025T15:54:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/KatalonHome/KatalonHeader"), 10, STOP_ON_FAILURE): Object 'Object Repository/KatalonHome/KatalonHeader' is present
+
+03-06-2025T15:54:59 - [MESSAGE][PASSED] - Object 'Object Repository/KatalonHome/KatalonHeader' is present
+
+03-06-2025T15:54:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginStep/KatalonLogin"), ["Username":username, "Passwd":passwd], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginStep/KatalonLogin' successfully
+
+03-06-2025T15:54:59 - [TEST_CASE][PASSED] - Test Cases/LoginStep/KatalonLogin: Test Cases/LoginStep/KatalonLogin
+
+03-06-2025T15:54:59 - [TEST_STEP][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/LoginButton"), 20): myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObjects/LoginButton' is visible
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjects/LoginButton' is clicked on
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:03 - [TEST_STEP][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/loginwithemail"), 20): myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObjects/loginwithemail' is visible
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjects/loginwithemail' is clicked on
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/LoginObjects/loginPageHeader"), 20, STOP_ON_FAILURE): Object 'Object Repository/LoginObjects/loginPageHeader' is visible
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObjects/loginPageHeader' is visible
+
+03-06-2025T15:55:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginObjects/username"), Username): Keys 'ssiddh9@gmail.com' sent to object: 'Object Repository/LoginObjects/username'
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - Keys 'ssiddh9@gmail.com' sent to object: 'Object Repository/LoginObjects/username'
+
+03-06-2025T15:55:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObjects/password"), Passwd): Text ****** has been set on object 'Object Repository/LoginObjects/password'
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObjects/password'
+
+03-06-2025T15:55:03 - [TEST_STEP][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/LoginClick"), 20): myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:03 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObjects/LoginClick' is visible
+
+03-06-2025T15:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjects/LoginClick' is clicked on
+
+03-06-2025T15:55:05 - [MESSAGE][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginStep/KatalonLogin' successfully
+
+03-06-2025T15:55:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2025T15:55:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Yuvaan\\git\\KatalonLatestDemo\\Reports\\20250603_155446\\TestSUite1\\20250603_155446\\1748946305987.png]]
+
+03-06-2025T15:55:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2025T15:55:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1" time="12.462" classname="Test Cases/Test1" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"passwd":"OV3w8KWdimMqTFbcuLWRqg\u003d\u003d","username":"siddarth.punamiya@ica.se"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-06-2025T15:55:07 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+03-06-2025T15:55:07 - [TEST_STEP][PASSED] - myPack.GTIN.getPallet_ID37(): myPack.GTIN.getPallet_ID37 is PASSED
+
+03-06-2025T15:55:07 - [MESSAGE][PASSED] - myPack.GTIN.getPallet_ID37 is PASSED
+
+03-06-2025T15:55:07 - [TEST_STEP][PASSED] - openBrowser("https://katalon.com/"): Browser is opened with url: 'https://katalon.com/'
+
+03-06-2025T15:55:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2025T15:55:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2025T15:55:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon.com/'
+
+03-06-2025T15:55:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/KatalonHome/KatalonHeader"), 10, STOP_ON_FAILURE): Object 'Object Repository/KatalonHome/KatalonHeader' is present
+
+03-06-2025T15:55:12 - [MESSAGE][PASSED] - Object 'Object Repository/KatalonHome/KatalonHeader' is present
+
+03-06-2025T15:55:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginStep/KatalonLogin"), ["Username":username, "Passwd":passwd], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginStep/KatalonLogin' successfully
+
+03-06-2025T15:55:13 - [TEST_CASE][PASSED] - Test Cases/LoginStep/KatalonLogin: Test Cases/LoginStep/KatalonLogin
+
+03-06-2025T15:55:13 - [TEST_STEP][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/LoginButton"), 20): myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:13 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObjects/LoginButton' is visible
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjects/LoginButton' is clicked on
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:16 - [TEST_STEP][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/loginwithemail"), 20): myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObjects/loginwithemail' is visible
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjects/loginwithemail' is clicked on
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/LoginObjects/loginPageHeader"), 20, STOP_ON_FAILURE): Object 'Object Repository/LoginObjects/loginPageHeader' is visible
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObjects/loginPageHeader' is visible
+
+03-06-2025T15:55:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginObjects/username"), Username): Keys 'siddarth.punamiya@ica.se' sent to object: 'Object Repository/LoginObjects/username'
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - Keys 'siddarth.punamiya@ica.se' sent to object: 'Object Repository/LoginObjects/username'
+
+03-06-2025T15:55:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObjects/password"), Passwd): Text ****** has been set on object 'Object Repository/LoginObjects/password'
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObjects/password'
+
+03-06-2025T15:55:16 - [TEST_STEP][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/LoginClick"), 20): myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObjects/LoginClick' is visible
+
+03-06-2025T15:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObjects/LoginClick' is clicked on
+
+03-06-2025T15:55:18 - [MESSAGE][PASSED] - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+
+03-06-2025T15:55:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginStep/KatalonLogin' successfully
+
+03-06-2025T15:55:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2025T15:55:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Yuvaan\\git\\KatalonLatestDemo\\Reports\\20250603_155446\\TestSUite1\\20250603_155446\\1748946318410.png]]
+
+03-06-2025T15:55:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2025T15:55:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-06-2025T15:54:50 - [TEST_SUITE][PASSED] - TestSUite1: Test Cases/Test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

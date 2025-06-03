@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test1</name>
+   <name>KatalonLogin</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e181c055-b07b-47ae-8161-fe171a934dbb</testCaseGuid>
+   <testCaseGuid>a8f9b82e-2979-4a4d-b4e9-a6d40b94df46</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7fb8136c-fd1c-43a7-bc95-46519dcf2bad</variableId>
+      <variableId>f4effa83-027b-4134-84c0-295a674a1bb0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>238904ae-fffe-483d-9aec-01d3f5295371</variableId>
+      <variableId>fb6f70e2-35a8-41d8-9558-62ef5514841e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'ssiddh9@gmail.com'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>7fb8136c-fd1c-43a7-bc95-46519dcf2bad</id>
+      <id>f4effa83-027b-4134-84c0-295a674a1bb0</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>Username</name>
    </variable>
    <variable>
-      <defaultValue>'OV3w8KWdimMqTFbcuLWRqg=='</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>238904ae-fffe-483d-9aec-01d3f5295371</id>
+      <id>fb6f70e2-35a8-41d8-9558-62ef5514841e</id>
       <masked>false</masked>
-      <name>passwd</name>
+      <name>Passwd</name>
    </variable>
 </TestCaseEntity>

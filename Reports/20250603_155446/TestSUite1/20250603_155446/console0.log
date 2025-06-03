@@ -1,0 +1,102 @@
+2025-06-03 15:54:50.125 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TestSUite1
+2025-06-03 15:54:50.246 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Siddharth Punamiya
+2025-06-03 15:54:50.248 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatalonLatestDemo
+2025-06-03 15:54:50.249 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Yuvaan - 192.168.1.179
+2025-06-03 15:54:50.251 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-06-03 15:54:50.252 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.179
+2025-06-03 15:54:50.253 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-03 15:54:50.901 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-03 15:54:50.902 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Test1
+2025-06-03 15:54:50.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = ssiddh9@gmail.com
+2025-06-03 15:54:50.951 INFO  c.k.katalon.core.main.TestCaseExecutor   - passwd = OV3w8KWdimMqTFbcuLWRqg==
+2025-06-03 15:54:51.390 DEBUG testcase.Test1                           - 1: myPack.GTIN.getPallet_ID37()
+PalletGTIN 70603155408586
+CaseGTIN 50603155429709
+BaseGTIN 00603155470560
+2025-06-03 15:54:52.186 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.GTIN.getPallet_ID37 is PASSED
+2025-06-03 15:54:52.188 DEBUG testcase.Test1                           - 2: openBrowser("https://katalon.com/")
+2025-06-03 15:54:52.423 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-03 15:54:52.451 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-03 15:54:52.454 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-03 15:54:53.008 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 554 ms
+2025-06-03 15:54:53.009 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Yuvaan\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-03 15:54:53.009 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Yuvaan\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-03 15:54:53.027 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 03, 2025 3:54:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 03, 2025 3:54:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-03 15:54:55.102 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0229e659f44b02fd4fa2a12518b64913
+2025-06-03 15:54:55.104 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-03 15:54:55.104 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-03 15:54:55.105 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-03 15:54:55.109 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-03 15:54:59.058 DEBUG testcase.Test1                           - 3: verifyElementPresent(findTestObject("Object Repository/KatalonHome/KatalonHeader"), 10, STOP_ON_FAILURE)
+2025-06-03 15:54:59.253 DEBUG testcase.Test1                           - 4: callTestCase(findTestCase("LoginStep/KatalonLogin"), ["Username":username, "Passwd":passwd], STOP_ON_FAILURE)
+2025-06-03 15:54:59.377 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-03 15:54:59.377 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/LoginStep/KatalonLogin
+2025-06-03 15:54:59.414 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = ssiddh9@gmail.com
+2025-06-03 15:54:59.415 INFO  c.k.katalon.core.main.TestCaseExecutor   - Passwd = OV3w8KWdimMqTFbcuLWRqg==
+2025-06-03 15:54:59.661 DEBUG testcase.KatalonLogin                    - 1: myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/LoginButton"), 20)
+2025-06-03 15:55:03.302 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+2025-06-03 15:55:03.304 DEBUG testcase.KatalonLogin                    - 2: myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/loginwithemail"), 20)
+2025-06-03 15:55:03.509 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+2025-06-03 15:55:03.511 DEBUG testcase.KatalonLogin                    - 3: waitForElementVisible(findTestObject("Object Repository/LoginObjects/loginPageHeader"), 20, STOP_ON_FAILURE)
+2025-06-03 15:55:03.573 DEBUG testcase.KatalonLogin                    - 4: sendKeys(findTestObject("Object Repository/LoginObjects/username"), Username)
+2025-06-03 15:55:03.770 DEBUG testcase.KatalonLogin                    - 5: setEncryptedText(findTestObject("Object Repository/LoginObjects/password"), Passwd)
+2025-06-03 15:55:03.957 DEBUG testcase.KatalonLogin                    - 6: myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/LoginClick"), 20)
+2025-06-03 15:55:05.917 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+2025-06-03 15:55:05.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/LoginStep/KatalonLogin
+2025-06-03 15:55:05.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-03 15:55:05.930 DEBUG testcase.Test1                           - 5: takeScreenshot()
+2025-06-03 15:55:06.316 DEBUG testcase.Test1                           - 6: closeBrowser()
+2025-06-03 15:55:07.039 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Test1
+2025-06-03 15:55:07.057 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-03 15:55:07.057 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Test1
+2025-06-03 15:55:07.071 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = siddarth.punamiya@ica.se
+2025-06-03 15:55:07.071 INFO  c.k.katalon.core.main.TestCaseExecutor   - passwd = OV3w8KWdimMqTFbcuLWRqg==
+2025-06-03 15:55:07.076 DEBUG testcase.Test1                           - 1: myPack.GTIN.getPallet_ID37()
+PalletGTIN 70603155563605
+CaseGTIN 50603155505212
+BaseGTIN 00603155571922
+2025-06-03 15:55:07.085 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.GTIN.getPallet_ID37 is PASSED
+2025-06-03 15:55:07.085 DEBUG testcase.Test1                           - 2: openBrowser("https://katalon.com/")
+2025-06-03 15:55:07.093 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-03 15:55:07.094 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-03 15:55:07.094 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-03 15:55:07.579 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 485 ms
+2025-06-03 15:55:07.579 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Yuvaan\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-03 15:55:07.579 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Yuvaan\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-03 15:55:07.579 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 03, 2025 3:55:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 03, 2025 3:55:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-03 15:55:08.696 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e0f9fae68b9ff1625d7d4aeec7a18853
+2025-06-03 15:55:08.696 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-03 15:55:08.696 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-03 15:55:08.697 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-03 15:55:08.698 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-03 15:55:12.772 DEBUG testcase.Test1                           - 3: verifyElementPresent(findTestObject("Object Repository/KatalonHome/KatalonHeader"), 10, STOP_ON_FAILURE)
+2025-06-03 15:55:12.960 DEBUG testcase.Test1                           - 4: callTestCase(findTestCase("LoginStep/KatalonLogin"), ["Username":username, "Passwd":passwd], STOP_ON_FAILURE)
+2025-06-03 15:55:13.031 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-03 15:55:13.032 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/LoginStep/KatalonLogin
+2025-06-03 15:55:13.046 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = siddarth.punamiya@ica.se
+2025-06-03 15:55:13.047 INFO  c.k.katalon.core.main.TestCaseExecutor   - Passwd = OV3w8KWdimMqTFbcuLWRqg==
+2025-06-03 15:55:13.049 DEBUG testcase.KatalonLogin                    - 1: myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/LoginButton"), 20)
+2025-06-03 15:55:16.117 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+2025-06-03 15:55:16.117 DEBUG testcase.KatalonLogin                    - 2: myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/loginwithemail"), 20)
+2025-06-03 15:55:16.296 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+2025-06-03 15:55:16.296 DEBUG testcase.KatalonLogin                    - 3: waitForElementVisible(findTestObject("Object Repository/LoginObjects/loginPageHeader"), 20, STOP_ON_FAILURE)
+2025-06-03 15:55:16.348 DEBUG testcase.KatalonLogin                    - 4: sendKeys(findTestObject("Object Repository/LoginObjects/username"), Username)
+2025-06-03 15:55:16.474 DEBUG testcase.KatalonLogin                    - 5: setEncryptedText(findTestObject("Object Repository/LoginObjects/password"), Passwd)
+2025-06-03 15:55:16.655 DEBUG testcase.KatalonLogin                    - 6: myPack.WebUIhack.waitForelementVisibleThenClick(findTestObject("Object Repository/LoginObjects/LoginClick"), 20)
+2025-06-03 15:55:18.403 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.waitForelementVisibleThenClick is PASSED
+2025-06-03 15:55:18.404 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/LoginStep/KatalonLogin
+2025-06-03 15:55:18.404 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-03 15:55:18.406 DEBUG testcase.Test1                           - 5: takeScreenshot()
+2025-06-03 15:55:18.828 DEBUG testcase.Test1                           - 6: closeBrowser()
+2025-06-03 15:55:19.519 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Test1
+2025-06-03 15:55:19.561 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-03 15:55:19.561 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TestSUite1
+2025-06-03 15:55:19.561 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
