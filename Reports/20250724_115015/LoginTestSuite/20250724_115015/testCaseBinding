@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TestCases/Test01InvalidLogin","testCaseId":"Test Cases/TestCases/Test01InvalidLogin","iterationVariableName":"","bindedValues":{"Username":"\u0027John Doe\u0027","Password":"\u0027RyzK/uu8Q18DVx3DwtARbQ\u003d\u003d\u0027"}}
+{"testCaseName":"Test Cases/TestCases/Test02ValidLogin","testCaseId":"Test Cases/TestCases/Test02ValidLogin","iterationVariableName":"","bindedValues":{"Username":"\u0027John Doe\u0027","Password":"\u0027g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM\u0027"}}

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginTestSuite,Chrome 138.0.7204.101,,,24-07-2025 11:50:18,24-07-2025 11:50:36,17.387s,PASSED
+,,,,,,,
+Test Cases/TestCases/Test01InvalidLogin,Chrome 138.0.7204.101,,,24-07-2025 11:50:19,24-07-2025 11:50:27,8.460s,PASSED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""RyzK/uu8Q18DVx3DwtARbQ\u003d\u003d""}",,,,,,,
+"callTestCase(findTestCase(""DemoHealthCare/LoginCura""), [""Username"":Username, ""Password"":Password], STOP_ON_FAILURE)",Chrome 138.0.7204.101,,,24-07-2025 11:50:19,24-07-2025 11:50:27,7.354s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid""), 10)",Chrome 138.0.7204.101,,,24-07-2025 11:50:27,24-07-2025 11:50:27,0.596s,PASSED
+if (true),Chrome 138.0.7204.101,,,24-07-2025 11:50:27,24-07-2025 11:50:27,0.010s,PASSED
+,,,,,,,
+Test Cases/TestCases/Test02ValidLogin,Chrome 138.0.7204.101,,,24-07-2025 11:50:27,24-07-2025 11:50:35,8.053s,PASSED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM""}",,,,,,,
+"callTestCase(findTestCase(""DemoHealthCare/LoginCura""), [""Username"":Username, ""Password"":Password], STOP_ON_FAILURE)",Chrome 138.0.7204.101,,,24-07-2025 11:50:27,24-07-2025 11:50:35,7.320s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 10)",Chrome 138.0.7204.101,,,24-07-2025 11:50:35,24-07-2025 11:50:35,0.601s,PASSED
+if (true),Chrome 138.0.7204.101,,,24-07-2025 11:50:35,24-07-2025 11:50:35,0.003s,PASSED
