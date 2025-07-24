@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>73f7f50d-b7b5-44ed-9d26-85f855b085de</testSuiteGuid>
+   <testCaseLink>
+      <guid>1bd68fc0-1115-493a-b2fa-880d081eedb1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCases/Test01InvalidLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>096fc978-6015-41b9-b9d5-a28c0202156f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/HealthCareUserDetails</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>096fc978-6015-41b9-b9d5-a28c0202156f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>b9ef6434-1880-4862-8fc5-04b4d2318c09</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>096fc978-6015-41b9-b9d5-a28c0202156f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>d5d6dcf9-6e1b-462a-bed8-09146ba64d4a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f1a2911f-cdbe-4f54-bb2e-f3f0f95a6420</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCases/Test02ValidLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>088322b3-7b2f-49ac-a7c4-954c83be4704</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/HealthCareUserDetails</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>088322b3-7b2f-49ac-a7c4-954c83be4704</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>e9689994-711d-44a1-8da3-646198c6fef3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>088322b3-7b2f-49ac-a7c4-954c83be4704</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>245093bd-29b3-46b4-b424-641e02385cbf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ef1172f-6224-425e-b757-3507c16790c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCases/TestCase03MakeAppt</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

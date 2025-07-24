@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase03MakeAppt</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b6d5b9e-cc85-4463-877f-2f9d2d7ee98a</testCaseGuid>
+</TestCaseEntity>
