@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FillFormDemoQA" time="29.027" tests="2" failures="0" errors="0">
+   <testsuite name="FillFormDemoQA" tests="2" failures="0" errors="0" time="29.027" skipped="0" timestamp="2025-07-26T18:05:25.048Z" hostname="Yuvaan - 192.168.1.10" id="Test Suites/FillFormDemoQA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Yuvaan\\git\\KatalonLatestDemo3\\Reports\\20250726_233520\\FillFormDemoQA\\20250726_233521"/>
+         <property name="logFiles" value="C:\\Users\\Yuvaan\\git\\KatalonLatestDemo3\\Reports\\20250726_233520\\FillFormDemoQA\\20250726_233521\\console0.log, C:\\Users\\Yuvaan\\git\\KatalonLatestDemo3\\Reports\\20250726_233520\\FillFormDemoQA\\20250726_233521\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Yuvaan - 192.168.1.10"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.4.0"/>
+         <property name="browser" value="Chrome 138.0.7204.158"/>
+         <property name="userFullName" value="Siddharth Punamiya"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="ea362a765fa46cea8f9f5beab92a7df1"/>
+         <property name="projectName" value="KatalonLatestDemo"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DemoQA/FillFormTextBox" time="16.026" classname="Test Cases/DemoQA/FillFormTextBox" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"CurrentAdd":"Pune","PermAdd":"Barshi","FullName":"Siddharth","email":"abc@gmail.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[26-07-2025T23:35:25 - [TEST_CASE][PASSED] - Test Cases/DemoQA/FillFormTextBox: Test Cases/DemoQA/FillFormTextBox
+
+26-07-2025T23:35:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DemoQA/ClickElements"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DemoQA/ClickElements' successfully
+
+26-07-2025T23:35:26 - [TEST_CASE][PASSED] - Test Cases/DemoQA/ClickElements: Test Cases/DemoQA/ClickElements
+
+26-07-2025T23:35:26 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com"): Browser is opened with url: 'https://demoqa.com'
+
+26-07-2025T23:35:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-07-2025T23:35:26 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+26-07-2025T23:35:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-07-2025T23:35:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com'
+
+26-07-2025T23:35:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-07-2025T23:35:34 - [MESSAGE][PASSED] - Current window maximized
+
+26-07-2025T23:35:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/DemoQA/Elements/Elements"), 30): Object 'Object Repository/DemoQA/Elements/Elements' is visible
+
+26-07-2025T23:35:34 - [MESSAGE][PASSED] - Object 'Object Repository/DemoQA/Elements/Elements' is visible
+
+26-07-2025T23:35:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/DemoQA/Elements/Elements"), 10): Scroll to object 'Object Repository/DemoQA/Elements/Elements' successfully
+
+26-07-2025T23:35:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DemoQA/Elements/Elements' successfully
+
+26-07-2025T23:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoQA/Elements/Elements")): Object: 'Object Repository/DemoQA/Elements/Elements' is clicked on
+
+26-07-2025T23:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoQA/Elements/Elements' is clicked on
+
+26-07-2025T23:35:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DemoQA/ClickElements' successfully
+
+26-07-2025T23:35:35 - [TEST_STEP][PASSED] - myPack.WebUIhack.selectTextBox(): myPack.WebUIhack.selectTextBox is PASSED
+
+26-07-2025T23:35:35 - [MESSAGE][PASSED] - myPack.WebUIhack.selectTextBox is PASSED
+
+26-07-2025T23:35:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-07-2025T23:35:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-07-2025T23:35:38 - [TEST_STEP][PASSED] - myPack.WebUIhack.fillForm(FullName, email, CurrentAdd, PermAdd): myPack.WebUIhack.fillForm is PASSED
+
+26-07-2025T23:35:38 - [MESSAGE][PASSED] - myPack.WebUIhack.fillForm is PASSED
+
+26-07-2025T23:35:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-07-2025T23:35:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-07-2025T23:35:41 - [TEST_STEP][PASSED] - output = myPack.WebUIhack.getOutputText(): myPack.WebUIhack.getOutputText is PASSED
+
+26-07-2025T23:35:41 - [MESSAGE][PASSED] - myPack.WebUIhack.getOutputText is PASSED
+
+26-07-2025T23:35:41 - [TEST_STEP][PASSED] - assert output.contains(FullName): null
+
+26-07-2025T23:35:41 - [TEST_STEP][PASSED] - assert output.contains(email): null
+
+26-07-2025T23:35:41 - [TEST_STEP][PASSED] - assert output.contains(CurrentAdd): null
+
+26-07-2025T23:35:41 - [TEST_STEP][PASSED] - assert output.contains(PermAdd): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DemoQA/FillFormTextBox" time="12.297" classname="Test Cases/DemoQA/FillFormTextBox" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"CurrentAdd":"Stockholm","PermAdd":"Pune","FullName":"Preeti","email":"def@yahoo.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[26-07-2025T23:35:41 - [TEST_CASE][PASSED] - Test Cases/DemoQA/FillFormTextBox: Test Cases/DemoQA/FillFormTextBox
+
+26-07-2025T23:35:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DemoQA/ClickElements"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DemoQA/ClickElements' successfully
+
+26-07-2025T23:35:41 - [TEST_CASE][PASSED] - Test Cases/DemoQA/ClickElements: Test Cases/DemoQA/ClickElements
+
+26-07-2025T23:35:41 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com"): Browser is opened with url: 'https://demoqa.com'
+
+26-07-2025T23:35:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-07-2025T23:35:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-07-2025T23:35:42 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+26-07-2025T23:35:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-07-2025T23:35:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com'
+
+26-07-2025T23:35:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-07-2025T23:35:47 - [MESSAGE][PASSED] - Current window maximized
+
+26-07-2025T23:35:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/DemoQA/Elements/Elements"), 30): Object 'Object Repository/DemoQA/Elements/Elements' is visible
+
+26-07-2025T23:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/DemoQA/Elements/Elements' is visible
+
+26-07-2025T23:35:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/DemoQA/Elements/Elements"), 10): Scroll to object 'Object Repository/DemoQA/Elements/Elements' successfully
+
+26-07-2025T23:35:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DemoQA/Elements/Elements' successfully
+
+26-07-2025T23:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoQA/Elements/Elements")): Object: 'Object Repository/DemoQA/Elements/Elements' is clicked on
+
+26-07-2025T23:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoQA/Elements/Elements' is clicked on
+
+26-07-2025T23:35:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DemoQA/ClickElements' successfully
+
+26-07-2025T23:35:47 - [TEST_STEP][PASSED] - myPack.WebUIhack.selectTextBox(): myPack.WebUIhack.selectTextBox is PASSED
+
+26-07-2025T23:35:47 - [MESSAGE][PASSED] - myPack.WebUIhack.selectTextBox is PASSED
+
+26-07-2025T23:35:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-07-2025T23:35:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-07-2025T23:35:50 - [TEST_STEP][PASSED] - myPack.WebUIhack.fillForm(FullName, email, CurrentAdd, PermAdd): myPack.WebUIhack.fillForm is PASSED
+
+26-07-2025T23:35:51 - [MESSAGE][PASSED] - myPack.WebUIhack.fillForm is PASSED
+
+26-07-2025T23:35:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-07-2025T23:35:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-07-2025T23:35:54 - [TEST_STEP][PASSED] - output = myPack.WebUIhack.getOutputText(): myPack.WebUIhack.getOutputText is PASSED
+
+26-07-2025T23:35:54 - [MESSAGE][PASSED] - myPack.WebUIhack.getOutputText is PASSED
+
+26-07-2025T23:35:54 - [TEST_STEP][PASSED] - assert output.contains(FullName): null
+
+26-07-2025T23:35:54 - [TEST_STEP][PASSED] - assert output.contains(email): null
+
+26-07-2025T23:35:54 - [TEST_STEP][PASSED] - assert output.contains(CurrentAdd): null
+
+26-07-2025T23:35:54 - [TEST_STEP][PASSED] - assert output.contains(PermAdd): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-07-2025T23:35:25 - [TEST_SUITE][PASSED] - FillFormDemoQA: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,133 @@
+2025-07-30 15:52:46.523 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/LoginTestSuite
+2025-07-30 15:52:46.622 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Siddharth Punamiya
+2025-07-30 15:52:46.622 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatalonLatestDemo
+2025-07-30 15:52:46.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Yuvaan - 192.168.1.10
+2025-07-30 15:52:46.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-07-30 15:52:46.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.10
+2025-07-30 15:52:46.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.0.0
+2025-07-30 15:52:47.007 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:52:47.007 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TestCases/Test01InvalidLogin
+2025-07-30 15:52:47.057 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2025-07-30 15:52:47.057 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = RyzK/uu8Q18DVx3DwtARbQ==
+2025-07-30 15:52:47.323 DEBUG testcase.Test01InvalidLogin              - 1: callTestCase(findTestCase("DemoHealthCare/LoginCura"), ["Username":Username, "Password":Password], STOP_ON_FAILURE)
+2025-07-30 15:52:47.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:52:47.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/DemoHealthCare/LoginCura
+2025-07-30 15:52:47.496 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2025-07-30 15:52:47.498 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = RyzK/uu8Q18DVx3DwtARbQ==
+2025-07-30 15:52:47.543 DEBUG testcase.LoginCura                       - 1: openBrowser("")
+2025-07-30 15:52:47.672 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-30 15:52:47.683 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2025-07-30 15:52:47.736 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 30, 2025 3:52:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-30 15:52:50.056 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f0c07de18a6f19c87f9e8f14f983c01d
+2025-07-30 15:52:50.056 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.169
+2025-07-30 15:52:50.056 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-30 15:52:50.056 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-30 15:52:50.065 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-30 15:52:50.096 DEBUG testcase.LoginCura                       - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-07-30 15:52:55.744 DEBUG testcase.LoginCura                       - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-07-30 15:52:56.460 DEBUG testcase.LoginCura                       - 4: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), Username)
+2025-07-30 15:52:56.744 DEBUG testcase.LoginCura                       - 5: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password)
+2025-07-30 15:52:56.955 DEBUG testcase.LoginCura                       - 6: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-07-30 15:52:57.717 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/DemoHealthCare/LoginCura
+2025-07-30 15:52:57.722 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:52:57.733 DEBUG testcase.Test01InvalidLogin              - 2: verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid"), 10)
+2025-07-30 15:52:57.771 DEBUG testcase.Test01InvalidLogin              - 3: if (true)
+2025-07-30 15:52:57.771 DEBUG testcase.Test01InvalidLogin              - 1: comment("Login Failed Test Pass")
+2025-07-30 15:52:57.779 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Login Failed Test Pass
+2025-07-30 15:52:57.779 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TestCases/Test01InvalidLogin
+2025-07-30 15:52:57.799 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:52:57.799 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TestCases/Test02ValidLogin
+2025-07-30 15:52:57.811 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2025-07-30 15:52:57.811 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM
+2025-07-30 15:52:57.872 DEBUG testcase.Test02ValidLogin                - 1: callTestCase(findTestCase("DemoHealthCare/LoginCura"), ["Username":Username, "Password":Password], STOP_ON_FAILURE)
+2025-07-30 15:52:57.933 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:52:57.933 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/DemoHealthCare/LoginCura
+2025-07-30 15:52:57.945 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2025-07-30 15:52:57.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM
+2025-07-30 15:52:57.947 DEBUG testcase.LoginCura                       - 1: openBrowser("")
+2025-07-30 15:52:57.950 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-07-30 15:52:58.162 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-30 15:52:58.163 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2025-07-30 15:52:58.165 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 30, 2025 3:52:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-30 15:52:59.369 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9b20d7eaa7226a07f4f039e2ddf1fa6d
+2025-07-30 15:52:59.369 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.169
+2025-07-30 15:52:59.369 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-30 15:52:59.369 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-30 15:52:59.371 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-30 15:52:59.389 DEBUG testcase.LoginCura                       - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-07-30 15:53:03.474 DEBUG testcase.LoginCura                       - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-07-30 15:53:04.023 DEBUG testcase.LoginCura                       - 4: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), Username)
+2025-07-30 15:53:04.259 DEBUG testcase.LoginCura                       - 5: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password)
+2025-07-30 15:53:04.483 DEBUG testcase.LoginCura                       - 6: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-07-30 15:53:05.204 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/DemoHealthCare/LoginCura
+2025-07-30 15:53:05.204 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:53:05.205 DEBUG testcase.Test02ValidLogin                - 2: verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), 10)
+2025-07-30 15:53:05.253 DEBUG testcase.Test02ValidLogin                - 3: if (true)
+2025-07-30 15:53:05.256 DEBUG testcase.Test02ValidLogin                - 1: comment("Login Passed Test Pass")
+2025-07-30 15:53:05.258 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Login Passed Test Pass
+2025-07-30 15:53:05.260 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TestCases/Test02ValidLogin
+2025-07-30 15:53:05.265 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:53:05.266 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TestCases/TestCase03MakeAppt
+2025-07-30 15:53:05.338 DEBUG testcase.TestCase03MakeAppt              - 1: callTestCase(findTestCase("DemoHealthCare/LoginCura"), ["Username":"John Doe", "Password":"g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"], STOP_ON_FAILURE)
+2025-07-30 15:53:05.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:53:05.398 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/DemoHealthCare/LoginCura
+2025-07-30 15:53:05.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2025-07-30 15:53:05.414 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM
+2025-07-30 15:53:05.417 DEBUG testcase.LoginCura                       - 1: openBrowser("")
+2025-07-30 15:53:05.422 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-07-30 15:53:05.658 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-30 15:53:05.660 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2025-07-30 15:53:05.661 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 30, 2025 3:53:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-30 15:53:06.864 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1b165bd863aa9d75dd7255b1c15a8330
+2025-07-30 15:53:06.865 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.169
+2025-07-30 15:53:06.866 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-30 15:53:06.866 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-30 15:53:06.868 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-30 15:53:06.886 DEBUG testcase.LoginCura                       - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-07-30 15:53:16.676 DEBUG testcase.LoginCura                       - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-07-30 15:53:17.258 DEBUG testcase.LoginCura                       - 4: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), Username)
+2025-07-30 15:53:17.507 DEBUG testcase.LoginCura                       - 5: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password)
+2025-07-30 15:53:17.726 DEBUG testcase.LoginCura                       - 6: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-07-30 15:53:18.435 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/DemoHealthCare/LoginCura
+2025-07-30 15:53:18.436 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:53:18.437 DEBUG testcase.TestCase03MakeAppt              - 2: callTestCase(findTestCase("DemoHealthCare/MakeAppointment"), [:], STOP_ON_FAILURE)
+2025-07-30 15:53:18.495 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:53:18.496 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/DemoHealthCare/MakeAppointment
+2025-07-30 15:53:18.544 DEBUG testcase.MakeAppointment                 - 1: verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/MakeAppointmentHeader"), 10)
+2025-07-30 15:53:18.569 DEBUG testcase.MakeAppointment                 - 2: selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true)
+2025-07-30 15:53:18.820 DEBUG testcase.MakeAppointment                 - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f"))
+2025-07-30 15:53:18.950 DEBUG testcase.MakeAppointment                 - 4: click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs"))
+2025-07-30 15:53:19.070 DEBUG testcase.MakeAppointment                 - 5: click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"))
+2025-07-30 15:53:19.206 DEBUG testcase.MakeAppointment                 - 6: click(findTestObject("Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon"))
+2025-07-30 15:53:19.329 DEBUG testcase.MakeAppointment                 - 7: click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_29"))
+2025-07-30 15:53:19.467 DEBUG testcase.MakeAppointment                 - 8: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "Please Book The AppointMent")
+2025-07-30 15:53:19.665 DEBUG testcase.MakeAppointment                 - 9: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment"))
+2025-07-30 15:53:20.045 DEBUG testcase.MakeAppointment                 - 10: click(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation"))
+2025-07-30 15:53:20.170 DEBUG testcase.MakeAppointment                 - 11: click(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a"))
+2025-07-30 15:53:20.274 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/DemoHealthCare/MakeAppointment
+2025-07-30 15:53:20.274 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:53:20.275 DEBUG testcase.TestCase03MakeAppt              - 3: waitForElementVisible(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a"), 20, STOP_ON_FAILURE)
+2025-07-30 15:53:20.357 DEBUG testcase.TestCase03MakeAppt              - 4: if (true)
+2025-07-30 15:53:20.358 DEBUG testcase.TestCase03MakeAppt              - 1: println("Appointment Booked ")
+Appointment Booked 
+2025-07-30 15:53:20.360 DEBUG testcase.TestCase03MakeAppt              - 2: comment("Go To Home Page and Logout")
+2025-07-30 15:53:20.362 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Go To Home Page and Logout
+2025-07-30 15:53:20.362 DEBUG testcase.TestCase03MakeAppt              - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage"))
+2025-07-30 15:53:20.757 DEBUG testcase.TestCase03MakeAppt              - 5: callTestCase(findTestCase("DemoHealthCare/LogOutCura"), [:], STOP_ON_FAILURE)
+2025-07-30 15:53:20.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:53:20.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/DemoHealthCare/LogOutCura
+2025-07-30 15:53:20.845 DEBUG testcase.LogOutCura                      - 1: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle"))
+2025-07-30 15:53:20.953 DEBUG testcase.LogOutCura                      - 2: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Logout"))
+2025-07-30 15:53:21.622 DEBUG testcase.LogOutCura                      - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"))
+2025-07-30 15:53:21.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/DemoHealthCare/LogOutCura
+2025-07-30 15:53:21.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-30 15:53:21.734 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TestCases/TestCase03MakeAppt
+2025-07-30 15:53:21.929 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-30 15:53:21.931 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/LoginTestSuite
+2025-07-30 15:53:21.931 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

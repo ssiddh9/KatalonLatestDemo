@@ -1,0 +1,91 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-07-26 23:35:24.973 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/FillFormDemoQA
+2025-07-26 23:35:25.069 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Siddharth Punamiya
+2025-07-26 23:35:25.070 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatalonLatestDemo
+2025-07-26 23:35:25.070 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Yuvaan - 192.168.1.10
+2025-07-26 23:35:25.071 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-07-26 23:35:25.071 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.10
+2025-07-26 23:35:25.072 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.4.0
+2025-07-26 23:35:25.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-26 23:35:25.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DemoQA/FillFormTextBox
+2025-07-26 23:35:25.754 INFO  c.k.katalon.core.main.TestCaseExecutor   - FullName = Siddharth
+2025-07-26 23:35:25.755 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = abc@gmail.com
+2025-07-26 23:35:25.756 INFO  c.k.katalon.core.main.TestCaseExecutor   - CurrentAdd = Pune
+2025-07-26 23:35:25.756 INFO  c.k.katalon.core.main.TestCaseExecutor   - PermAdd = Barshi
+2025-07-26 23:35:26.303 DEBUG testcase.FillFormTextBox                 - 1: callTestCase(findTestCase("DemoQA/ClickElements"), [:], STOP_ON_FAILURE)
+2025-07-26 23:35:26.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-26 23:35:26.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/DemoQA/ClickElements
+2025-07-26 23:35:26.582 DEBUG testcase.ClickElements                   - 1: openBrowser("https://demoqa.com")
+2025-07-26 23:35:26.783 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-26 23:35:26.790 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2025-07-26 23:35:26.848 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 26, 2025 11:35:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-26 23:35:28.855 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 99c735011e960469d31870fa88c2879f
+2025-07-26 23:35:28.856 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.158
+2025-07-26 23:35:28.857 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-26 23:35:28.857 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-26 23:35:28.863 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-26 23:35:34.411 DEBUG testcase.ClickElements                   - 2: maximizeWindow()
+2025-07-26 23:35:34.496 DEBUG testcase.ClickElements                   - 3: waitForElementVisible(findTestObject("Object Repository/DemoQA/Elements/Elements"), 30)
+2025-07-26 23:35:34.767 DEBUG testcase.ClickElements                   - 4: scrollToElement(findTestObject("Object Repository/DemoQA/Elements/Elements"), 10)
+2025-07-26 23:35:34.984 DEBUG testcase.ClickElements                   - 5: click(findTestObject("Object Repository/DemoQA/Elements/Elements"))
+2025-07-26 23:35:35.136 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/DemoQA/ClickElements
+2025-07-26 23:35:35.136 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-26 23:35:35.147 DEBUG testcase.FillFormTextBox                 - 2: myPack.WebUIhack.selectTextBox()
+2025-07-26 23:35:35.308 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.selectTextBox is PASSED
+2025-07-26 23:35:35.309 DEBUG testcase.FillFormTextBox                 - 3: delay(3)
+2025-07-26 23:35:38.338 DEBUG testcase.FillFormTextBox                 - 4: myPack.WebUIhack.fillForm(FullName, email, CurrentAdd, PermAdd)
+2025-07-26 23:35:38.664 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.fillForm is PASSED
+2025-07-26 23:35:38.666 DEBUG testcase.FillFormTextBox                 - 5: delay(3)
+2025-07-26 23:35:41.680 DEBUG testcase.FillFormTextBox                 - 6: output = myPack.WebUIhack.getOutputText()
+2025-07-26 23:35:41.706 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.getOutputText is PASSED
+2025-07-26 23:35:41.707 DEBUG testcase.FillFormTextBox                 - 7: assert output.contains(FullName)
+2025-07-26 23:35:41.720 DEBUG testcase.FillFormTextBox                 - 8: assert output.contains(email)
+2025-07-26 23:35:41.723 DEBUG testcase.FillFormTextBox                 - 9: assert output.contains(CurrentAdd)
+2025-07-26 23:35:41.724 DEBUG testcase.FillFormTextBox                 - 10: assert output.contains(PermAdd)
+2025-07-26 23:35:41.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DemoQA/FillFormTextBox
+2025-07-26 23:35:41.777 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-26 23:35:41.777 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DemoQA/FillFormTextBox
+2025-07-26 23:35:41.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - FullName = Preeti
+2025-07-26 23:35:41.798 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = def@yahoo.com
+2025-07-26 23:35:41.798 INFO  c.k.katalon.core.main.TestCaseExecutor   - CurrentAdd = Stockholm
+2025-07-26 23:35:41.798 INFO  c.k.katalon.core.main.TestCaseExecutor   - PermAdd = Pune
+2025-07-26 23:35:41.801 DEBUG testcase.FillFormTextBox                 - 1: callTestCase(findTestCase("DemoQA/ClickElements"), [:], STOP_ON_FAILURE)
+2025-07-26 23:35:41.870 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-26 23:35:41.870 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/DemoQA/ClickElements
+2025-07-26 23:35:41.884 DEBUG testcase.ClickElements                   - 1: openBrowser("https://demoqa.com")
+2025-07-26 23:35:41.888 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-07-26 23:35:42.235 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-26 23:35:42.240 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2025-07-26 23:35:42.240 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 26, 2025 11:35:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-26 23:35:43.479 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ea362a765fa46cea8f9f5beab92a7df1
+2025-07-26 23:35:43.479 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.158
+2025-07-26 23:35:43.479 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-26 23:35:43.481 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-26 23:35:43.481 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-26 23:35:47.211 DEBUG testcase.ClickElements                   - 2: maximizeWindow()
+2025-07-26 23:35:47.305 DEBUG testcase.ClickElements                   - 3: waitForElementVisible(findTestObject("Object Repository/DemoQA/Elements/Elements"), 30)
+2025-07-26 23:35:47.362 DEBUG testcase.ClickElements                   - 4: scrollToElement(findTestObject("Object Repository/DemoQA/Elements/Elements"), 10)
+2025-07-26 23:35:47.389 DEBUG testcase.ClickElements                   - 5: click(findTestObject("Object Repository/DemoQA/Elements/Elements"))
+2025-07-26 23:35:47.512 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/DemoQA/ClickElements
+2025-07-26 23:35:47.512 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-26 23:35:47.514 DEBUG testcase.FillFormTextBox                 - 2: myPack.WebUIhack.selectTextBox()
+2025-07-26 23:35:47.598 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.selectTextBox is PASSED
+2025-07-26 23:35:47.599 DEBUG testcase.FillFormTextBox                 - 3: delay(3)
+2025-07-26 23:35:50.603 DEBUG testcase.FillFormTextBox                 - 4: myPack.WebUIhack.fillForm(FullName, email, CurrentAdd, PermAdd)
+2025-07-26 23:35:51.041 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.fillForm is PASSED
+2025-07-26 23:35:51.043 DEBUG testcase.FillFormTextBox                 - 5: delay(3)
+2025-07-26 23:35:54.047 DEBUG testcase.FillFormTextBox                 - 6: output = myPack.WebUIhack.getOutputText()
+2025-07-26 23:35:54.071 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - myPack.WebUIhack.getOutputText is PASSED
+2025-07-26 23:35:54.072 DEBUG testcase.FillFormTextBox                 - 7: assert output.contains(FullName)
+2025-07-26 23:35:54.072 DEBUG testcase.FillFormTextBox                 - 8: assert output.contains(email)
+2025-07-26 23:35:54.073 DEBUG testcase.FillFormTextBox                 - 9: assert output.contains(CurrentAdd)
+2025-07-26 23:35:54.073 DEBUG testcase.FillFormTextBox                 - 10: assert output.contains(PermAdd)
+2025-07-26 23:35:54.075 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DemoQA/FillFormTextBox
+2025-07-26 23:35:54.402 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-26 23:35:54.402 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/FillFormDemoQA
+2025-07-26 23:35:54.402 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FillFormDemoQA,Chrome 138.0.7204.158,,,26-07-2025 23:33:24,26-07-2025 23:34:03,38.981s,ERROR
+,,,,,,,
+Test Cases/DemoQA/FillFormTextBox,Chrome 138.0.7204.158,,GenAI,26-07-2025 23:33:24,26-07-2025 23:33:48,23.855s,ERROR
+"DATA BINDING - {""CurrentAdd"":""Pune"",""PermAdd"":""Barshi"",""FullName"":""Siddharth"",""email"":""abc@gmail.com""}",,,,,,,
+"callTestCase(findTestCase(""DemoQA/ClickElements""), [:], STOP_ON_FAILURE)",Chrome 138.0.7204.158,,,26-07-2025 23:33:25,26-07-2025 23:33:40,14.842s,PASSED
+myPack.WebUIhack.selectTextBox(),Chrome 138.0.7204.158,,,26-07-2025 23:33:40,26-07-2025 23:33:40,0.130s,PASSED
+delay(3),Chrome 138.0.7204.158,,,26-07-2025 23:33:40,26-07-2025 23:33:43,3.023s,PASSED
+"myPack.WebUIhack.fillForm(FullName, email, CurrentAdd, PermAdd)",Chrome 138.0.7204.158,,,26-07-2025 23:33:43,26-07-2025 23:33:45,1.603s,ERROR
+,,,,,,,
+Test Cases/DemoQA/FillFormTextBox,Chrome 138.0.7204.158,,GenAI,26-07-2025 23:33:48,26-07-2025 23:34:02,14.090s,PASSED
+"DATA BINDING - {""CurrentAdd"":""Stockholm"",""PermAdd"":""Pune"",""FullName"":""Preeti"",""email"":""def@yahoo.com""}",,,,,,,
+"callTestCase(findTestCase(""DemoQA/ClickElements""), [:], STOP_ON_FAILURE)",Chrome 138.0.7204.158,,,26-07-2025 23:33:48,26-07-2025 23:33:56,7.556s,PASSED
+myPack.WebUIhack.selectTextBox(),Chrome 138.0.7204.158,,,26-07-2025 23:33:56,26-07-2025 23:33:56,0.105s,PASSED
+delay(3),Chrome 138.0.7204.158,,,26-07-2025 23:33:56,26-07-2025 23:33:59,3.005s,PASSED
+"myPack.WebUIhack.fillForm(FullName, email, CurrentAdd, PermAdd)",Chrome 138.0.7204.158,,,26-07-2025 23:33:59,26-07-2025 23:33:59,0.354s,PASSED
+delay(3),Chrome 138.0.7204.158,,,26-07-2025 23:33:59,26-07-2025 23:34:02,3.006s,PASSED
+output = myPack.WebUIhack.getOutputText(),Chrome 138.0.7204.158,,,26-07-2025 23:34:02,26-07-2025 23:34:02,0.026s,PASSED
+assert output.contains(FullName),Chrome 138.0.7204.158,,,26-07-2025 23:34:02,26-07-2025 23:34:02,0.013s,PASSED
+assert output.contains(email),Chrome 138.0.7204.158,,,26-07-2025 23:34:02,26-07-2025 23:34:02,0.001s,PASSED
+assert output.contains(CurrentAdd),Chrome 138.0.7204.158,,,26-07-2025 23:34:02,26-07-2025 23:34:02,0.001s,PASSED
+assert output.contains(PermAdd),Chrome 138.0.7204.158,,,26-07-2025 23:34:02,26-07-2025 23:34:02,0.001s,PASSED

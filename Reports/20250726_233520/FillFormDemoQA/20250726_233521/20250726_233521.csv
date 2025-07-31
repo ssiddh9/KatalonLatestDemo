@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FillFormDemoQA,Chrome 138.0.7204.158,,,26-07-2025 23:35:25,26-07-2025 23:35:54,29.354s,PASSED
+,,,,,,,
+Test Cases/DemoQA/FillFormTextBox,Chrome 138.0.7204.158,,GenAI,26-07-2025 23:35:25,26-07-2025 23:35:41,16.026s,PASSED
+"DATA BINDING - {""CurrentAdd"":""Pune"",""PermAdd"":""Barshi"",""FullName"":""Siddharth"",""email"":""abc@gmail.com""}",,,,,,,
+"callTestCase(findTestCase(""DemoQA/ClickElements""), [:], STOP_ON_FAILURE)",Chrome 138.0.7204.158,,,26-07-2025 23:35:26,26-07-2025 23:35:35,8.844s,PASSED
+myPack.WebUIhack.selectTextBox(),Chrome 138.0.7204.158,,,26-07-2025 23:35:35,26-07-2025 23:35:35,0.162s,PASSED
+delay(3),Chrome 138.0.7204.158,,,26-07-2025 23:35:35,26-07-2025 23:35:38,3.028s,PASSED
+"myPack.WebUIhack.fillForm(FullName, email, CurrentAdd, PermAdd)",Chrome 138.0.7204.158,,,26-07-2025 23:35:38,26-07-2025 23:35:38,0.328s,PASSED
+delay(3),Chrome 138.0.7204.158,,,26-07-2025 23:35:38,26-07-2025 23:35:41,3.014s,PASSED
+output = myPack.WebUIhack.getOutputText(),Chrome 138.0.7204.158,,,26-07-2025 23:35:41,26-07-2025 23:35:41,0.027s,PASSED
+assert output.contains(FullName),Chrome 138.0.7204.158,,,26-07-2025 23:35:41,26-07-2025 23:35:41,0.012s,PASSED
+assert output.contains(email),Chrome 138.0.7204.158,,,26-07-2025 23:35:41,26-07-2025 23:35:41,0.003s,PASSED
+assert output.contains(CurrentAdd),Chrome 138.0.7204.158,,,26-07-2025 23:35:41,26-07-2025 23:35:41,0.002s,PASSED
+assert output.contains(PermAdd),Chrome 138.0.7204.158,,,26-07-2025 23:35:41,26-07-2025 23:35:41,0.002s,PASSED
+,,,,,,,
+Test Cases/DemoQA/FillFormTextBox,Chrome 138.0.7204.158,,GenAI,26-07-2025 23:35:41,26-07-2025 23:35:54,12.297s,PASSED
+"DATA BINDING - {""CurrentAdd"":""Stockholm"",""PermAdd"":""Pune"",""FullName"":""Preeti"",""email"":""def@yahoo.com""}",,,,,,,
+"callTestCase(findTestCase(""DemoQA/ClickElements""), [:], STOP_ON_FAILURE)",Chrome 138.0.7204.158,,,26-07-2025 23:35:41,26-07-2025 23:35:47,5.713s,PASSED
+myPack.WebUIhack.selectTextBox(),Chrome 138.0.7204.158,,,26-07-2025 23:35:47,26-07-2025 23:35:47,0.084s,PASSED
+delay(3),Chrome 138.0.7204.158,,,26-07-2025 23:35:47,26-07-2025 23:35:50,3.004s,PASSED
+"myPack.WebUIhack.fillForm(FullName, email, CurrentAdd, PermAdd)",Chrome 138.0.7204.158,,,26-07-2025 23:35:50,26-07-2025 23:35:51,0.440s,PASSED
+delay(3),Chrome 138.0.7204.158,,,26-07-2025 23:35:51,26-07-2025 23:35:54,3.004s,PASSED
+output = myPack.WebUIhack.getOutputText(),Chrome 138.0.7204.158,,,26-07-2025 23:35:54,26-07-2025 23:35:54,0.025s,PASSED
+assert output.contains(FullName),Chrome 138.0.7204.158,,,26-07-2025 23:35:54,26-07-2025 23:35:54,0.000s,PASSED
+assert output.contains(email),Chrome 138.0.7204.158,,,26-07-2025 23:35:54,26-07-2025 23:35:54,0.001s,PASSED
+assert output.contains(CurrentAdd),Chrome 138.0.7204.158,,,26-07-2025 23:35:54,26-07-2025 23:35:54,0.000s,PASSED
+assert output.contains(PermAdd),Chrome 138.0.7204.158,,,26-07-2025 23:35:54,26-07-2025 23:35:54,0.001s,PASSED

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginTestSuite,Chrome 138.0.7204.169,,,30-07-2025 15:39:42,30-07-2025 15:40:22,40.049s,PASSED
+,,,,,,,
+Test Cases/TestCases/Test01InvalidLogin,Chrome 138.0.7204.169,,,30-07-2025 15:39:43,30-07-2025 15:39:55,12.332s,PASSED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""RyzK/uu8Q18DVx3DwtARbQ\u003d\u003d""}",,,,,,,
+"callTestCase(findTestCase(""DemoHealthCare/LoginCura""), [""Username"":Username, ""Password"":Password], STOP_ON_FAILURE)",Chrome 138.0.7204.169,,,30-07-2025 15:39:43,30-07-2025 15:39:55,11.838s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid""), 10)",Chrome 138.0.7204.169,,,30-07-2025 15:39:55,30-07-2025 15:39:55,0.046s,PASSED
+if (true),Chrome 138.0.7204.169,,,30-07-2025 15:39:55,30-07-2025 15:39:55,0.007s,PASSED
+,,,,,,,
+Test Cases/TestCases/Test02ValidLogin,Chrome 138.0.7204.169,,,30-07-2025 15:39:55,30-07-2025 15:40:09,14.494s,PASSED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM""}",,,,,,,
+"callTestCase(findTestCase(""DemoHealthCare/LoginCura""), [""Username"":Username, ""Password"":Password], STOP_ON_FAILURE)",Chrome 138.0.7204.169,,,30-07-2025 15:39:55,30-07-2025 15:40:09,14.373s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 10)",Chrome 138.0.7204.169,,,30-07-2025 15:40:09,30-07-2025 15:40:09,0.038s,PASSED
+if (true),Chrome 138.0.7204.169,,,30-07-2025 15:40:09,30-07-2025 15:40:09,0.003s,PASSED
+,,,,,,,
+Test Cases/TestCases/TestCase03MakeAppt,Chrome 138.0.7204.169,,,30-07-2025 15:40:09,30-07-2025 15:40:22,12.362s,PASSED
+"callTestCase(findTestCase(""DemoHealthCare/LoginCura""), [""Username"":""John Doe"", ""Password"":""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM""], STOP_ON_FAILURE)",Chrome 138.0.7204.169,,,30-07-2025 15:40:09,30-07-2025 15:40:18,8.469s,PASSED
+"callTestCase(findTestCase(""DemoHealthCare/MakeAppointment""), [:], STOP_ON_FAILURE)",Chrome 138.0.7204.169,,,30-07-2025 15:40:18,30-07-2025 15:40:20,2.117s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a""), 20, STOP_ON_FAILURE)",Chrome 138.0.7204.169,,,30-07-2025 15:40:20,30-07-2025 15:40:20,0.101s,PASSED
+if (true),Chrome 138.0.7204.169,,,30-07-2025 15:40:20,30-07-2025 15:40:21,0.495s,PASSED
+"callTestCase(findTestCase(""DemoHealthCare/LogOutCura""), [:], STOP_ON_FAILURE)",Chrome 138.0.7204.169,,,30-07-2025 15:40:21,30-07-2025 15:40:22,1.105s,PASSED
